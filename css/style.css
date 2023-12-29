@@ -3212,6 +3212,7 @@ footer * {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  align-items: center;
 }
 .cart-wrapper * {
   list-style: none;
