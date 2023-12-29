@@ -1,0 +1,105 @@
+
+.intro-wrapper{
+    position: relative;
+    display: flex;
+    gap: 129px;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 860px;
+    
+    .intro-left{
+        position: absolute;
+        width: 1205px !important;
+        height: 781px;
+        left: -500px;
+        background: #CBE4E8;
+
+        img{
+            position: absolute;
+            right: 0;
+            top: 35px;
+        }
+    }
+
+    .intro-right{
+        position: absolute;
+        right: 0;
+        top: 270px;
+        
+        h2{
+            display: block;
+            color: var(--Text2, #000);
+            font-size: 36px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 83.333% */
+            letter-spacing: 1.44px;
+            margin-bottom: 24px ;
+        }
+
+        p{
+            color: var(--Text2, #000);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+            margin-bottom: 48px;
+            font-family: Poppins;
+        }
+
+        label{
+            display: flex;
+            flex-direction: column;
+
+            input{
+                border: none;
+                margin-bottom: 40px;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.299);
+                padding: 10px 0;
+                &::placeholder{
+                    font-family: Poppins;
+                }
+            }
+        }
+
+        div{
+            display: flex;
+            gap: 41px;
+            align-items: baseline;
+
+            .button1{
+                width: 143px;
+                display: block;
+                padding: 16px 0;
+                color: var(--Text, #FAFAFA);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                font-family: Poppins;
+                line-height: 24px; /* 150% */
+                border-radius: 4px;
+                background: var(--Button2, #DB4444);
+                border: none;
+                margin-bottom: 16px;
+                &:hover{
+                            background: var(--Button2, #9f0f0f); 
+                }
+            }
+
+            a{
+                color: var(--Secondary-2, #DB4444);
+                font-size: 16px;
+                font-style: normal;
+                font-family: Poppins;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+                border: none;
+            }
+        }
+
+
+    
+        
+    }
+}

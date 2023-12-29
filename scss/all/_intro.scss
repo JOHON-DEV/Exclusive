@@ -1,0 +1,116 @@
+#intro {
+  margin-top: 140px;
+  backdrop-filter: 30px red;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    aside {
+      padding-top: 40px;
+      width: 30%;
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        list-style: none;
+        li {
+          a {
+            text-decoration: none;
+            color: var(--Text2, #000);
+            text-align: center;
+
+            /* Title/16PX Regular */
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+            .p2 {
+              display: flex;
+              gap: 51px;
+              
+            }
+            .p1 {
+              display: flex;
+              gap: 79px;
+            }
+          }
+        }
+      }
+    }
+    .swiper {
+      width: 90%;
+      height: 380px;
+      padding: 40px 0 0 45px;
+      margin-left: -80px;
+    }
+
+    .swiper-slide {
+      display: flex;
+      background: black;
+      justify-content: space-between;
+
+      img {
+        width: 100%;
+        display: block;
+        height: 352px;
+      }
+
+      .left {
+        margin-top: 58px;
+        margin-left: 64px;
+
+        p {
+          display: flex;
+          align-items: center;
+          gap: 24px;
+          color: var(--Text, #fafafa);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+          img {
+            width: 40px;
+            height: 49px;
+          }
+        }
+        h1 {
+          margin-top: 20px;
+          width: 304px;
+          color: var(--Text, #fafafa);
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 60px; /* 125% */
+          letter-spacing: 1.92px;
+          margin-bottom: 22px;
+        }
+
+        span {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          a {
+            display: flex;
+            align-items: center;
+            color: var(--Text, #fafafa);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            border: none;
+            gap: 15px;
+            text-decoration: underline;
+          }
+          i {
+            color: #fafafa;
+          }
+        }
+      }
+      .right {
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+}
